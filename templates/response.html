@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% set active_page = "response" %}
+
+{% block title %}response{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your password</title>
+  </head>
+  <body>
+    <h1 class = "center ">Your password is:</h1>
+    <p class = "center bold ">{{ response }}</p>
+	
+  </body>
+</html>
+
+{% endblock %}

@@ -1,0 +1,42 @@
+body{
+	background-color:#c3cfe3;
+	color:#f700ff;
+}
+
+.center{
+	text-align:center;
+	
+}
+
+.perp{
+	background-color:#f700ff;
+	color:#c3cfe3;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.bur {
+  margin: 0;
+  position: absolute;
+ 
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ 
+}
+
+.text-box {
+	margin-left:300px;
+	
+}
+
+.hidden{
+	display:none;
+}
+
+.black{
+	color:black;
+}
+

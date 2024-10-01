@@ -1,0 +1,101 @@
+{% extends "layout.html" %}
+
+{% set active_page = "index" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <!--page content-->
+    <h1 class="text-center "> Password Creator </h1>
+	<br>
+	<h2 class = "text-center black simpletext"> Simple </h2>
+	<br>
+	<h2 class = "text-center black complicatedtext">Complicated</h2>
+	<form action="/response" class = "hidden simple">
+  <div class="mb-3 mt-3 text-center ">
+    <label for="color" class="form-label  bold ">Color:</label>
+  </div>
+	<div class="row">
+	<div class="col-2"></div>
+    <div class="col-4"><input type="text" class="form-control text-box" id="color" placeholder="Enter color" name="color"></div>
+	</div>
+<div class="mt-3 text-center ">
+	    <label for="color" class="form-label text-center bold ">Animal:</label>
+</div>
+<div class="row">
+	<div class="col-2"></div>
+    <div class="col-4"><input type="text" class="form-control text-box" id="animal" placeholder="Enter animal" name="animal"></div>
+</div>
+<div class="mt-3 text-center ">
+	<label for="color" class="form-label text-center bold ">Favorite Symbol:</label>
+</div>
+<div class="row">
+	<div class="col-2"></div>
+    <div class="col-4"><input type="text" class="form-control text-box" id="symbol" placeholder="Enter symbol" name="symbol"></div>
+</div>
+<div class="mt-3 text-center ">
+	<label for="color" class="form-label text-center bold ">Favorite Number:</label>
+</div>
+<div class="row">
+	<div class="col-2"></div>
+    <div class="col-4"><input type="text" class="form-control text-box" id="number" placeholder="Enter Number" name="number"></div>
+</div>
+  <br>
+<div class="container">
+	<div class="vertical-center bur"><button type="submit" class="btn  perp bold center">Submit</button></div>
+</div>
+  
+</form>
+
+
+
+<form action="/response2" class = "hidden complicated">
+  <div class=" mt-3 text-center ">
+    <label for="color" class="form-label  bold ">Color:</label>
+  </div>
+	<div class="row">
+	<div class="col-2"></div>
+    <div class="col-4"><input type="text" class="form-control text-box" id="color" placeholder="Enter color" name="color1"></div>
+	</div>
+	<div class="mt-3 text-center ">
+	    <label for="color" class="form-label  text-center bold ">Animal:</label>
+	</div>
+	<div class="row">
+	<div class="col-2"></div>
+    <div class="col-4"><input type="text" class="form-control text-box" id="animal" placeholder="Enter animal" name="animal1"></div>
+  </div>
+   <div class="mt-3 text-center ">
+		<label for="color" class="form-label text-center bold ">Favorite Symbol:</label>
+   </div>
+	<div class="row">
+	<div class="col-2"></div>
+    <div class="col-4"><input type="text" class="form-control text-box" id="symbol" placeholder="Enter symbol" name="symbol1"></div>
+  </div>
+  <div class="mt-3 text-center ">
+	<label for="color" class="form-label text-center bold ">Favorite Number:</label>
+  </div>
+	<div class="row">
+	<div class="col-2"></div>
+    <div class="col-4"><input type="text" class="form-control text-box" id="number" placeholder="Enter Number" name="number1"></div>
+  </div>
+  <div class="mt-3 text-center ">
+	<label for="color" class="form-label text-center bold ">Favorite city:</label>
+  </div>
+	<div class="row">
+	<div class="col-2"></div>
+    <div class="col-4"><input type="text" class="form-control text-box" id="city" placeholder="Enter city" name="city1"></div>
+  </div>
+  <div class="mt-3 text-center ">
+	<label for="color" class="form-label text-center bold ">Favorite capital letter:</label>
+  </div>
+	<div class="row">
+	<div class="col-2"></div>
+    <div class="col-4"><input type="text" class="form-control text-box" id="captial" placeholder="Enter capital letter" name="capital1"></div>
+  </div>
+  <br>
+  <div class="container">
+	<div class="vertical-center bur"><button type="submit" class="btn  perp bold center">Submit</button></div>
+  </div>
+  
+</form>
+{% endblock %}
